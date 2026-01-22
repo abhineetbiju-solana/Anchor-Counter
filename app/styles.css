@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: system-ui, -apple-system, sans-serif;
+    background-color: #1a1a2e;
+    color: #eee;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+}
+
+.container {
+    text-align: center;
+    padding: 2rem;
+}
+
+h1 {
+    margin-bottom: 2rem;
+    color: #9945ff;
+}
+
+.btn {
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: opacity 0.2s;
+}
+
+.btn:hover {
+    opacity: 0.85;
+}
+
+.btn-connect {
+    background-color: #14f195;
+    color: #1a1a2e;
+}
+
+.btn-initialize {
+    background-color: #9945ff;
+    color: #fff;
+}
+
+.btn-increment {
+    background-color: #00d4ff;
+    color: #1a1a2e;
+}
+
+.buttons {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.counter {
+    margin: 2rem 0;
+    padding: 2rem 3rem;
+    background-color: #2a2a4e;
+    border-radius: 12px;
+    display: inline-block;
+}
+
+#counter-value {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #14f195;
+}
